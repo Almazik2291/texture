@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/iron_sword"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "voidskins:skin": 1
+      },
+      "model": "voidskins:item/sword_void"
+    },
+    {
+      "predicate": {
+        "voidskins:skin": 2
+      },
+      "model": "voidskins:item/sword_ice"
+    },
+    {
+      "predicate": {
+        "voidskins:skin": 3
+      },
+      "model": "voidskins:item/sword_blood"
+    },
+    {
+      "predicate": {
+        "voidskins:skin": 4
+      },
+      "model": "voidskins:item/sword_toxic"
+    },
+    {
+      "predicate": {
+        "voidskins:skin": 5
+      },
+      "model": "voidskins:item/sword_ember"
+    }
+  ]
+}
